@@ -166,7 +166,7 @@ draw.io 프로그램 사용
 <div markdown="1">
   </br>
   
-  - 객체에 의존성을 주입시켜 error 방지 및 효율적인 유지보수 가능
+  - Spring IoC가 외부에서 객체를 생성 및 주입시키므로 객체간 결합도를 낮춰 error 방지 및 효율적인 유지보수 가능
   
   ```java:JmPopJourneyController.java
   
@@ -217,19 +217,6 @@ draw.io 프로그램 사용
   - Tomcat 서버를 활용하여 로그인 정보를 Session에 보관하여 사용
    
   🔍 Controller [코드확인](https://github.com/nashs789/PopJourney/blob/3f5fcde32233c027187baeef4b47b75ea3eda2ba/Popjourney/src/main/java/com/gdj35/popjourney/web/Controller/PopJourneyController.java#L497)
-  
-</div>
-</details>
-
-<details>
-<summary><b>AES 알고리즘 방식을 이용한 암호화 구현</b></summary>
-<div markdown="1">
-  </br>
-  
-  - param에 들어 있는 비밀번호 키를 AES 알고리즘 방식으로 암호화 후 재정의
-  
-  🔍 Controller [코드확인](https://github.com/nashs789/PopJourney/blob/3f5fcde32233c027187baeef4b47b75ea3eda2ba/Popjourney/src/main/java/com/gdj35/popjourney/web/Controller/PopJourneyController.java#L214)  
-  🔍 Utils [코드확인](https://github.com/nashs789/PopJourney/blob/3f5fcde32233c027187baeef4b47b75ea3eda2ba/Popjourney/src/main/java/com/gdj35/popjourney/util/Utils.java#L18)
   
 </div>
 </details>
